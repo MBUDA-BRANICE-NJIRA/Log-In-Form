@@ -22,6 +22,10 @@ const LoginRegister = () => {
            </div>
 
            <button type='submit'>Login</button>
+
+           <div className="register-link">
+            <p>Don't have an account?<a href="nav#">Register</a></p>
+           </div>
         </form>
        </div>
       </div>
