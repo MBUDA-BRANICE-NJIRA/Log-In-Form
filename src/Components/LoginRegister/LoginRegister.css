@@ -1,23 +1,46 @@
 .Wrapper{
     position: relative;
     height: 420px;
-    background: seagreen;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .1);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     border-radius: 10px;
     color: #fff;
     display: flex;
     align-items: center;
+    overflow: hidden;   
+    transition: height .2s ease;
 
 }
+.Wrapper .active {
+    height: 520px;
+}
 
-.Wrapper .form-box{
+.Wrapper .form-box {
    width: 100%;
    padding: 40px;
-
 }
+
+.Wrapper .form-box.login {
+    transition: translate .18s ease;
+    translate: 0;
+}
+.Wrapper .active .form-box.login {
+    transition: none;
+    translate: -400px;
+}
+
 .Wrapper .form-box .register{
-    position: relative;
+    position: absolute;
+    transition: none;
     translate: 400px;
 
+}
+
+.Wrapper .active .form-box.register {
+    transition: translate .18s ease;
+    translate: 0;
 }
 
 form h1{
