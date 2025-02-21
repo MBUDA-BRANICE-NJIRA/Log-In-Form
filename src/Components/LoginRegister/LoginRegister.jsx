@@ -2,7 +2,7 @@ import React from 'react'
 import './LoginRegister.css'
 import { FaUser } from "react-icons/fa";
 import { FaLock } from "react-icons/fa";
-
+import { FaEnvelope } from "react-icons/fa";
 
 const LoginRegister = () => {
   return (
@@ -38,11 +38,16 @@ const LoginRegister = () => {
 
        <div className="form-box register">
         <form action="">
-          <h1>Login</h1>
+          <h1>Registration</h1>
            
            <div className="input-box">
             <input type="text" placeholder='Username' required />
             <FaUser className='icon'/>
+           </div>
+
+           <div className="input-box">
+            <input type="email" placeholder='Email' required />
+            <FaEnvelope className='icon'/>
            </div>
 
            <div className="input-box">
@@ -51,8 +56,7 @@ const LoginRegister = () => {
            </div>
 
            <div className="remember-forgot">
-            <label><input type="checkbox" />Remember me</label>
-            <a href="nav#">Forgot Password</a>
+            <label><input type="checkbox" />I agree to the terms & conditions.</label>
            </div>
 
            <button type='submit'>Login</button>
