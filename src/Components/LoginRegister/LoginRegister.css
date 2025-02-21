@@ -75,4 +75,19 @@ form button{
     box-shadow: 0 0 1px rgba(0, 0, 0, .1);
     cursor: pointer;
     font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}
+form .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover{
+    text-decoration: underline;
 }
