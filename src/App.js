@@ -1,4 +1,3 @@
-import "./App.css";
 import LoginRegister from "./Components/LoginRegister/LoginRegister";
 
 function App() {
