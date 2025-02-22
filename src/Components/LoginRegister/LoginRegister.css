@@ -80,6 +80,7 @@ form .input-box{
     translate: 0 -50%;
     font-size: 16px;
 }
+
 form .remember-forgot {
     display: flex;
     justify-content: space-between;
@@ -87,21 +88,25 @@ form .remember-forgot {
     margin: -15px 0 15px;
 
 }
+
 .remember-forgot label input {
     accent-color: #fff;
     margin: 4px;
 }
+
 .remember-forgot a {
     color: #fff;
     text-decoration: none;
 }
+
 .remember-forgot a:hover {
     text-decoration: underline;
 }
+
 form button {
     width: 100%;
     height: 45px;
-    background-color: #fff;
+    background: #fff;
     border: none;
     outline: none;
     border-radius: 40px;
