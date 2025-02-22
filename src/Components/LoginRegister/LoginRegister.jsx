@@ -3,7 +3,8 @@ import "./LoginRegister.css";
 import { FaUser, FaLock, FaEnvelope } from "react-icons/fa";
 
 const LoginRegister = () => {
-  const [action, setAction] = useState("");
+
+  const [action, setAction] = useState('');
 
   const registerLink = () => {
     setAction("active");
@@ -47,6 +48,7 @@ const LoginRegister = () => {
               </a>{" "}
             </p>
           </div>
+          
         </form>
       </div>
 
@@ -81,7 +83,7 @@ const LoginRegister = () => {
 
           <div className="register-link">
             <p>
-              Alredy have an account?{" "}
+              Already have an account?{" "}
               <a href="n#" onClick={loginLink}>
                 Login
               </a>

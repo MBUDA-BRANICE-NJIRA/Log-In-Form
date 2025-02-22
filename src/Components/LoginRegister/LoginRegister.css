@@ -27,6 +27,7 @@
     transition: translate .18s ease;
     translate: 0;
 }
+
 .Wrapper .active .form-box.login {
     transition: none;
     translate: -400px;
