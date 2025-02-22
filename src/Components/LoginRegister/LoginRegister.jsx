@@ -74,7 +74,7 @@ const LoginRegister = () => {
            <button type =' submit'>Register</button>
 
            <div className ="register-link">
-            <p>Alredy have an account? <a href = "#" onClick = {loginLink}>Login</a></p>
+            <p>Alredy have an account? <a href = "n#" onClick = {loginLink}>Login</a></p>
            </div>
         </form>
        </div>
