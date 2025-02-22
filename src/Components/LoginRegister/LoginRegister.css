@@ -1,4 +1,4 @@
-.Wrapper{
+.Wrapperb{
     position: relative;
     height: 420px;
     background: transparent;
@@ -31,7 +31,7 @@
     translate: -400px;
 }
 
-.Wrapper .form-box .register{
+.Wrapper .form-box .register {
     position: absolute;
     transition: none;
     translate: 400px;
@@ -43,7 +43,7 @@
     translate: 0;
 }
 
-form h1{
+form h1 {
     font-size: 36px;
     text-align: center;
 }
@@ -55,7 +55,7 @@ form .input-box{
      
 
 }
-.input-box input{
+.input-box input {
     width: 100%;
     height: 100%;
     background: transparent;
@@ -77,25 +77,25 @@ form .input-box{
     translate: 0 -50%;
     font-size: 16px;
 }
-form .remember-forgot{
+form .remember-forgot {
     display: flex;
     justify-content: space-between;
     font-size: 14.5px;
     margin: -15px 0 15px;
 
 }
-.remember-forgot label input{
+.remember-forgot label input {
     accent-color: #fff;
     margin: 4px;
 }
-.remember-forgot a{
+.remember-forgot a {
     color: #fff;
     text-decoration: none;
 }
-.remember-forgot a:hover{
+.remember-forgot a:hover {
     text-decoration: underline;
 }
-form button{
+form button {
     width: 100%;
     height: 45px;
     background-color: #fff;
@@ -108,7 +108,7 @@ form button{
     color: #333;
     font-weight: 700;
 }
-form .register-link{
+form .register-link {
     font-size: 14.5px;
     text-align: center;
     margin: 20px 0 15px;
@@ -118,7 +118,7 @@ form .register-link{
     text-decoration: none;
     font-weight: 600;
 }
-.register-link p a:hover{
+.register-link p a:hover {
     text-decoration: underline;
 }
 
