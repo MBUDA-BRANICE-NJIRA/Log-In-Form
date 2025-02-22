@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import './LoginRegister.css'
-import { FaUser } from "react-icons/fa";
-import { FaLock } from "react-icons/fa";
-import { FaEnvelope } from "react-icons/fa";
+import { FaUser,  FaLock , FaEnvelope } from "react-icons/fa";
+
 
 const LoginRegister = () => {
 
@@ -20,7 +19,7 @@ const LoginRegister = () => {
   return (
     <div className = {`Wrapper ${action}`}>
        <div className = "form-box login">
-        <form action="">
+        <form action = "" >
           <h1>Login</h1>
            
            <div className = "input-box">
@@ -35,14 +34,15 @@ const LoginRegister = () => {
 
            <div className = "remember-forgot">
             <label><input type = "checkbox" />Remember me</label>
-            <a href="nav#">Forgot Password</a>
+            <a href="n#">Forgot Password</a>
            </div>
 
            <button type = 'submit'>Login</button>
 
            <div className = "register-link">
-            <p>Don't have an account? <a href = "#" onClick = {registerLink}>Register</a></p>
+            <p>Don't have an account? <a href = "n#" onClick = {registerLink}>Register</a> </p>
            </div>
+
         </form>
        </div>
 
