@@ -132,6 +132,9 @@ form button {
     color: #333;
     font-weight: 700;
 }
+form button:hover {
+    background: #cebfbf;
+}
 form .register-link {
     font-size: 14.5px;
     text-align: center;
