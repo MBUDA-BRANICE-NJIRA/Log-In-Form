@@ -44,6 +44,21 @@
     transition: translate .18s ease;
     translate: 0;
 }
+.form-box.login {
+    display: block;
+  }
+  
+  .form-box.register {
+    display: none;
+  }
+  
+  .Wrapper.active .form-box.login {
+    display: none;
+  }
+  
+  .Wrapper.active .form-box.register {
+    display: block;
+  }
 
 form h1 {
     font-size: 36px;
